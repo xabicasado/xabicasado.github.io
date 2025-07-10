@@ -1,0 +1,29 @@
+:root {
+  --main-bg-color: #0056b2;
+}
+
+h1 {
+  color: white;
+
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
+  font-size: 3rem;
+
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  line-height: calc(0.25rem * 6);
+}
+
+.summary {
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--main-bg-color);
+}
